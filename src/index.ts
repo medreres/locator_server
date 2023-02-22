@@ -8,5 +8,9 @@ dotenv.config();
 // routes
 app.use(locationRouter);
 
+app.get('/', (req,res) => {
+    res.send('Hello world')
+})
+
 // spin up 
 app.listen(3000);
