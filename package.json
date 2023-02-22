@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon",
-    "build": "webpack"
+    "dev": "nodemon",
+    "start": "node dist/index.js",
+    "build": "webpack",
+    "postinstall": "webpack"
   },
   "keywords": [],
   "author": "",
