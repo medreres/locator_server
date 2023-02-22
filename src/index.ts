@@ -14,4 +14,4 @@ app.get('/', (req, res) => {
 })
 
 // spin up 
-app.listen(config.server.port);
+app.listen(config.server.port, () => { console.log('server listening on port' + config.server.port) });
