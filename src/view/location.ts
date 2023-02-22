@@ -35,7 +35,7 @@ export const getLocation = async (req: Request, res: Response) => {
         method: "GET",
         headers: {
             Accept: 'application/json',
-            Authorization: process.env.FORSQUARE_TOKEN as string,
+            Authorization: 'fsq3eK3Dn99yEAyq0jlWLbCok9VNPk45gsrB2Nb95Qw+2rA=',
         }
     });
 
